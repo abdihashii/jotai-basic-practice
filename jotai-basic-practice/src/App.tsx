@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import { atom, useAtom } from 'jotai';
+import Dots from './Dots';
 
 const countAtom = atom(0); // default value is 0
 const countAtom2 = atom(0);
@@ -35,6 +36,7 @@ const App = () => {
     <div>
       <Counter1 />
       <Counter2 />
+      <Dots />
     </div>
   );
 };
